@@ -1,5 +1,10 @@
 * {
-    box-sizing: border-box;
+  color: #333;
+  box-sizing: border-box;
+}
+
+svg {
+  fill: #999;
 }
 
 body {
@@ -11,6 +16,7 @@ body {
   width: 100%;
   padding: 7px;
   position: fixed;
+  min-width: 730px;
   background: #fff;
   box-shadow: 0 2px 3px #aaa;
 }
@@ -67,10 +73,6 @@ body {
     width: 30px;
 }
 
-img {
-  margin: 0 10px;
-}
-
 .icon {
   width: 30px;
   height: 30px;
@@ -79,25 +81,164 @@ img {
 main {
   width: 90%;
   margin: auto;
+  display: grid;
   margin-top: 70px;
+  grid-template-columns: auto 35%;
 }
 
 #viewer {
-  width: 700px;
+  width: 100%;
   height: 400px;
 }
 
 #details > h4 > * {
+  margin: 0;
   vertical-align: middle;
-    margin: 0 10px;
+}
+
+.sharebox {
+  display: grid;
+  grid-template-columns: min-content auto;
+}
+
+.sharebox > span {
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sharebox > span > *{
+  vertical-align: middle;
+}
+
+.sharebox > span:first-child{
+  display: grid;
+  padding: 0 5px 0 0;
+  align-content: center;
+}
+
+.sharebox > span:last-child{
+  text-align: right;
+}
+
+.sharebox a {
+  margin: 0 10px;
+  cursor: pointer;
+  display: inline-grid;
+  align-content: center;
+  grid-template-columns: min-content auto;
+}
+
+.sharebox a > * {
+  display: inline-grid;
+  align-content: center;
+}
+
+.info  {
+  padding: 10px 0;
+  border-bottom: 1px solid #aaa;
+}
+
+.info > * {
+  display: inline-block;
+}
+
+.info > img {
+  border-radius: 50%;
+}
+
+.info p {
+  margin: 0;
+  padding: 5px;
+}
+
+#comments > p:first-child {
+  font-size: 1.1em;
+}
+
+#comments > p:first-child > span {
+  margin-left: 20px;
+}
+
+#comments > p:first-child > span > * {
+  vertical-align: middle;
+}
+
+#comments > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#comments > ul > li {
+  display: grid;
+  padding: 10px 0;
+  grid-template-columns: min-content auto;
+}
+
+#comments > ul > li img {
+  margin: 0 15px 0 0;
+  border-radius: 50%;
+}
+
+#comments > ul > li > *:nth-child(2) {
+  display: grid;
+  align-content: center;
+}
+
+#comments > ul > li > div:nth-child(2) > p:last-child {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+
+#comments > ul > li > div:nth-child(2) > p:last-child > img {
+  margin: 0 5px;
+}
+
+#comments > ul > li > div:nth-child(2) > p:last-child > * {
+  vertical-align: middle
+}
+
+#comments > ul > li p, #comments > ul > li h4 {
+  margin: 0;
+}
+
+#comments h4 {
+  padding-bottom: 10px;
+}
+
+#comments h4 span {
+  color: #555;
+  font-size: 0.9em;
+  font-weight: normal;
+}
+#comments button {
+  border: none;
+  padding: 10px;
+  background: none;
+  font-size: 1.05em;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+#comments button.comment {
+  background: #d2dcf3;
+}
+
+#comments input {
+  width: 100%;
+  padding: 5px;
+  font-size: 1.02em;
+  margin-bottom: 5px;
+  border-width: 0 0 1px 0;
 }
 
 aside {
-  width: 35%;
-  /*border: 1px solid black;*/
-  float: right;
-  margin-top: 10%;
-  margin-right: 2%;
+  padding: 10px;
+}
+
+aside img {
+  margin: 0 10px;
 }
 
 #thumbnail {
@@ -111,7 +252,6 @@ aside {
 
 .thumbnail_txt {
   overflow: hidden;
-  /*display: inline;*/
   font-size: 0.99em;
 }
 
@@ -125,4 +265,10 @@ aside {
 
 hr {
   color: cornflowerblue;
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    display: block;
+  }
 }
