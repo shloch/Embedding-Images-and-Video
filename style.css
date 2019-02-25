@@ -5,6 +5,7 @@ body {
   margin: 0;
 }
 #navbar {
+  top: 0;
   width: 100%;
   padding: 7px;
   position: fixed;
@@ -66,4 +67,24 @@ body {
 
 img {
   margin: 0 10px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+#viewer {
+  width: 700px;
+  height: 400px;
+}
+
+#details > h4 > * {
+  vertical-align: middle;
 }
