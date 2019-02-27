@@ -275,10 +275,6 @@ aside img {
   font-weight: bold;
 }
 
-.views {
-  color: var(--yt-spec-text-secondary);
-}
-
 hr {
   border: none;
   margin-top: 20px;
