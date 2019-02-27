@@ -9,5 +9,5 @@ As the project is quiet simple, just HMTL and CSS are used to accomplish it.
 
 ## Contributors
 
-- SHEY Louis _https://github.com/shloch_
+- Louis SHEY _https://github.com/shloch_
 - Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_

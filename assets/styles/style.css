@@ -257,9 +257,9 @@ aside img {
   margin: 0 10px;
 }
 
-#thumbnail {
-    margin-top: 27px;
-    height: 85px;
+.thumbnail {
+    overflow: auto;
+    margin-top: 20px;
 }
 
 .thumbnail_img {
@@ -280,7 +280,9 @@ aside img {
 }
 
 hr {
-  color: cornflowerblue;
+  border: none;
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(90, 140, 233);
 }
 
 @media screen and (max-width: 950px) {
