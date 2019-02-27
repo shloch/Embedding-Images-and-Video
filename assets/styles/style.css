@@ -91,6 +91,12 @@ main {
   height: 400px;
 }
 
+.title {
+  padding: 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 #details > h4 > * {
   margin: 0;
   vertical-align: middle;
@@ -152,6 +158,14 @@ main {
   padding: 5px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+#comments {
+  margin-top: 30px;
+}
+
 #comments > p:first-child {
   font-size: 1.1em;
 }
@@ -204,6 +218,7 @@ main {
 }
 
 #comments h4 {
+  font-weight: bold;
   padding-bottom: 10px;
 }
 
@@ -235,6 +250,7 @@ main {
 
 aside {
   padding: 10px;
+  grid-area: 1 / 2 / 3 / 3;
 }
 
 aside img {
