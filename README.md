@@ -13,6 +13,9 @@ As the project is quiet simple, just HMTL and CSS are used to accomplish it.
 ## Live demo
 You can navigate to this link _https://raw.githack.com/FabienNeibaf/Embedding-Images-and-Video/master/index.html_ to see the project result.
 
+## Screenshot 
+![alt text](https://github.com/FabienNeibaf/Embedding-Images-and-Video/blob/master/assets/images/design.gif)
+
 ## Contributors
 
 ### 👤 **SHEY Louis CHIA**
