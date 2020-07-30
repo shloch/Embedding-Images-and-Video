@@ -27,3 +27,7 @@ You can navigate to this link _https://raw.githack.com/FabienNeibaf/Embedding-Im
 
 ## 👤 **Fabien RAKOTOMAMPIANDRA**
 - Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
+
+## Acknowledgements
+- http://www.youtube.com/
+- https://raw.githack.com
